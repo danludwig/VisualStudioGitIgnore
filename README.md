@@ -42,4 +42,4 @@ Once in the .csproj file's directory, package the project in release mode:
     Attempting to build package from 'VisualStudioGitIgnore.csproj'.
     Packing files from 'C:\Path\To\VisualStudioGitIgnore\VisualStudioGitIgnore\bin\Release'.
     Using 'VisualStudioGitIgnore.nuspec' for metadata.
-    Successfully created package 'C:\Path\To\VisualStudioGitIgnore\VisualStudioGitIgnore\VisualStudioGitIgnore.maj.min.rev.build.nupkg'.
+    Successfully created package 'C:\Path\To\VisualStudioGitIgnore\VisualStudioGitIgnore\VisualStudioGitIgnore.maj.min.build.rev.nupkg'.
