@@ -39,9 +39,7 @@ Packages/
 
 #Allow released nupkg files
 !VisualStudioGitIgnore.1.0.nupkg
-
-#Allow released nupkg files
-!VisualStudioGitIgnore.1.0.nupkg
+!VisualStudioGitIgnore.1.1.nupkg
 
 #Allow R# .DotSettings
 !*.csproj.DotSettings

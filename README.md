@@ -1,7 +1,7 @@
 Visual Studio Git Ignore
 =====================
 
-A default .gitignore file for Visual Studio from NuGet.
+A better .gitignore file for Visual Studio from NuGet.
 
 ## How to use
 This project is <a href="http://nuget.org/packages/VisualStudioGitIgnore">published as a NuGet Package</a>. When you install this package, it will add a git.ignore file to your project. Open that file and read its contents for further instructions.
