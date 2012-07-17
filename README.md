@@ -3,6 +3,9 @@ Visual Studio Git Ignore
 
 A default .gitignore file for Visual Studio from NuGet.
 
+## How to use
+When you install this package, it will add a git.ignore file to your project. Open that file and read its contents for further instructions.
+
 ## How to generate the nupkg file
 After getting the source, build it in Release mode. Next, open the Package Manager Console and switch to the csproj folder:
 
