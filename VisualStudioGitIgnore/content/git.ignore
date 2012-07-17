@@ -65,6 +65,12 @@ Packages/
 #Ignore generated nupkg files
 *.nupkg
 
+#Allow released nupkg files
+!MyProjectName.1.0.nupkg
+
+#Ignore local testsettings
+Local.testsettings
+
 #Allow R# .DotSettings
 !*.csproj.DotSettings
 

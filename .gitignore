@@ -41,6 +41,9 @@ Packages/
 !VisualStudioGitIgnore.1.0.nupkg
 !VisualStudioGitIgnore.1.1.nupkg
 
+#Ignore local testsettings
+Local.testsettings
+
 #Allow R# .DotSettings
 !*.csproj.DotSettings
 
