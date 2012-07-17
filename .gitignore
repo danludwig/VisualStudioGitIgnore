@@ -1,6 +1,58 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+#Ignore thumbnails created by windows
+Thumbs.db
 
-# mstest test results
-TestResults
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+
+#Ignore packages directory
+Packages/
+
+#Allow NuGet.exe
+!NuGet.exe
+
+#Ignore generated nupkg files
+*.nupkg
+
+#Allow R# .DotSettings
+!*.csproj.DotSettings
+
+#Ignore Azure build csdef & Pubxml files
+ServiceDefinition.build.csdef
+*.azurePubxml
+UCosmic.Www.Mvc.Publish.xml
+
+#Ignore WebDeploy publish profile
+*.Publish.xml
+
+#Ignore email files delivered to specified pickup directory
+*.eml
+
+#Allow chromedriver.exe
+!chromedriver.exe
+
+#Ignore private folder
+/Private/

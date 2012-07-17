@@ -1,0 +1,68 @@
+# HOW TO USE THIS FILE
+# The reason for this package is to create a convenient way to get common and not so common entries for your .gitignore file.
+# It is based on the .gitignore provided by the Git Source Control Provider when you create a new repository from Visual Studio.
+# The nuget package does not work when the file is named .gitignore, so you will have to rename it.
+# You can also move the file up to the root of your repository if you installed this package on a child project of your solution.
+# After you have moved / renamed the file, UNINSTALL THIS PACKAGE. The "VisualStudioGitIgnore.dll" file is just wasted bits used to create the nupkg file.
+
+# If you are using the nuget package restore feature, make sure to put this file as a sibling to your packages folder.
+
+#BEGIN GIT IGNORES
+#Ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+
+#Ignore packages directory
+Packages/
+
+#Allow NuGet.exe
+!NuGet.exe
+
+#Ignore generated nupkg files
+*.nupkg
+
+#Allow R# .DotSettings
+!*.csproj.DotSettings
+
+#Ignore Azure build csdef & Pubxml files
+ServiceDefinition.build.csdef
+*.azurePubxml
+UCosmic.Www.Mvc.Publish.xml
+
+#Ignore WebDeploy publish profile
+*.Publish.xml
+
+#Ignore email files delivered to specified pickup directory
+*.eml
+
+#Allow chromedriver.exe
+!chromedriver.exe
+
+#Ignore private folder
+/Private/

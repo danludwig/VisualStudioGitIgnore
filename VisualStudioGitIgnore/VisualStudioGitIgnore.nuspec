@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>Visual Studio .gitignore</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <licenseUrl>https://github.com/danludwig/VisualStudioGitIgnore</licenseUrl>
+        <projectUrl>https://github.com/danludwig/VisualStudioGitIgnore</projectUrl>
+        <iconUrl>http://www.gravatar.com/avatar/2b36e5d2ac5fe3c2377466dd98c62d52.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>$description$</description>
+        <releaseNotes>Review the README.md file at the project URL.</releaseNotes>
+        <copyright>Copyright 2012</copyright>
+        <tags>git gitignore</tags>
+    </metadata>
+    <files>
+        <file src="content\*.*" target="content\" />
+    </files>
+</package>
