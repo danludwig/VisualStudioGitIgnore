@@ -42,6 +42,7 @@
     <None Include="content\git.ignore" />
     <None Include="VisualStudioGitIgnore.1.0.nupkg" />
     <None Include="VisualStudioGitIgnore.1.1.nupkg" />
+    <None Include="VisualStudioGitIgnore.1.2.nupkg" />
     <None Include="VisualStudioGitIgnore.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

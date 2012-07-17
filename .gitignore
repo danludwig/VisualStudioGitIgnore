@@ -40,6 +40,7 @@ Packages/
 #Allow released nupkg files
 !VisualStudioGitIgnore.1.0.nupkg
 !VisualStudioGitIgnore.1.1.nupkg
+!VisualStudioGitIgnore.1.2.nupkg
 
 #Ignore local testsettings
 Local.testsettings
