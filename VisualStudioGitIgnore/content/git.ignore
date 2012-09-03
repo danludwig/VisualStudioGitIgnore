@@ -77,7 +77,6 @@ Local.testsettings
 #Ignore Azure build csdef & Pubxml files
 ServiceDefinition.build.csdef
 *.azurePubxml
-UCosmic.Www.Mvc.Publish.xml
 
 #Ignore WebDeploy publish profile
 *.Publish.xml
@@ -87,6 +86,11 @@ UCosmic.Www.Mvc.Publish.xml
 
 #Allow chromedriver.exe
 !chromedriver.exe
+
+#Ignore _vti folders in ExpressionWeb
+desktop.ini
+_vti_cnf/
+_vti_pvt/
 
 #Ignore private folder
 /Private/
